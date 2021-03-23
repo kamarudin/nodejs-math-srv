@@ -7,7 +7,7 @@ app.get('/', function (req, res) {
   rand_B = Math.floor(Math.random() * 10000) + 1;
   rand_Tot = Math.floor(rand_A * rand_B);
 
-  res.send('TEST-3 Timestamp:'+ ts + ' { A:' + rand_A + ' , B:' + rand_B + ' ; TOTAL (A*B):' + rand_Tot + ' } ');
+  res.send('TEST-4 Timestamp:'+ ts + ' { A:' + rand_A + ' , B:' + rand_B + ' ; TOTAL (A*B):' + rand_Tot + ' } ');
 })
 
 app.listen(8080, function () {
