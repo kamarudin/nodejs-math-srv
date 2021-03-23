@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-math-srv",
+  "version": "1.0.0",
+  "description": "NodeJS Services doing an random math - TOTAL=A*B",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Kamarudin Samsudin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
