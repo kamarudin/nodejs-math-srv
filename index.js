@@ -11,7 +11,7 @@ app.get('/', function (req, res) {
   my_Count = my_Count + 1;
 
   res.setHeader('Content-Type', 'application/json');
-  res.json({Timestamp: ts, A: rand_A, B: rand_B, "TOTAL (A*B)": rand_Tot, Hostname: os.hostname(), Count: my_Count, Msg: "Demo-1" });
+  res.json({Timestamp: ts, A: rand_A, B: rand_B, "TOTAL (A*B)": rand_Tot, Hostname: os.hostname(), Count: my_Count, Msg: "Demo-2" });
 })
 
 app.listen(8080, function () {
