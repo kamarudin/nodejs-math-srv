@@ -7,7 +7,7 @@ my_Count = 0
 app.get('/', function (req, res) {
   //ts=Date.now();
   now  =  new Date();
-  ts=date.format(now,'YYYY/MM/DD HH:mm:ss.SSS GMT+0800');
+  ts=date.format(now,'YYYY/MM/DD HH:mm:ss.SSS');
   rand_A = Math.floor(Math.random() * 1000) + 1;
   rand_B = Math.floor(Math.random() * 10000) + 1;
   rand_Tot = Math.floor(rand_A * rand_B);
