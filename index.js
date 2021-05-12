@@ -4,7 +4,8 @@ var os = require('os')
 my_Count = 0
 
 app.get('/', function (req, res) {
-  ts=Date.now();
+  //ts=Date.now();
+  ts=date.format(now,'YYYY/MM/DD HH:mm:ss');
   rand_A = Math.floor(Math.random() * 1000) + 1;
   rand_B = Math.floor(Math.random() * 10000) + 1;
   rand_Tot = Math.floor(rand_A * rand_B);
