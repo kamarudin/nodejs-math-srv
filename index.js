@@ -2,12 +2,12 @@ var express = require('express')
 var app = express()
 var os = require('os')
 const date = require('date-and-time')
-const now  =  new Date();
 my_Count = 0
 
 app.get('/', function (req, res) {
   //ts=Date.now();
-  ts=date.format(now,'YYYY/MM/DD HH:mm:ss');
+  now  =  new Date();
+  ts=date.format(now,'YYYY/MM/DD HH:mm:ss.SSS [GMT]Z');
   rand_A = Math.floor(Math.random() * 1000) + 1;
   rand_B = Math.floor(Math.random() * 10000) + 1;
   rand_Tot = Math.floor(rand_A * rand_B);
