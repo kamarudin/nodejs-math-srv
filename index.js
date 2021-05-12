@@ -12,7 +12,7 @@ app.get('/', function (req, res) {
 
   res.setHeader('Content-Type', 'application/json');
   //res.json({Timestamp: ts, A: rand_A, B: rand_B, "TOTAL (A*B)": rand_Tot, Hostname: os.hostname(), Count: my_Count, Msg: "Demo-0" });
-  res.json({Timestamp: ts, Hostname: os.hostname(), Count: my_Count, Msg: "Demo-2" });
+  res.json({Timestamp: ts, Hostname: os.hostname(), Count: my_Count, Msg: "Demo-0" });
 })
 
 app.listen(8080, function () {
