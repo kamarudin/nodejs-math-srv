@@ -1,6 +1,8 @@
 var express = require('express')
 var app = express()
 var os = require('os')
+const date = require('date-and-time')
+const now  =  new Date();
 my_Count = 0
 
 app.get('/', function (req, res) {
